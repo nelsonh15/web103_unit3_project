@@ -12,23 +12,23 @@ const App = () => {
       element: <Locations />
     },
     {
-      path: '/echolounge',
+      path: '/carnegiehall',
       element: <LocationEvents index={1} />
     },
     {
-      path: '/houseofblues',
+      path: '/broadwaytheatre',
       element: <LocationEvents index={2} />
     },
     {
-      path: '/pavilion',
+      path: '/madisonsquaregarden',
       element: <LocationEvents index={3} />
     },
     {
-      path: '/americanairlines',
+      path: '/rockefellercenter',
       element: <LocationEvents index={4} />
     },
     {
-      path: '/events',
+      path: '/listofevents',
       element: <Events />
     }
   ])
@@ -41,7 +41,7 @@ const App = () => {
 
         <div className='header-buttons'>
           <Link to='/' role='button'>Home</Link>
-          <Link to='/events' role='button'>Events</Link>
+          <Link to='/listofevents' role='button'>Events</Link>
         </div>
       </header>
 
